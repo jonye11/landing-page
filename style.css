@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+header {
+    display: flex;
+    height: 100px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 50px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #F00;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.buy ul,
+.buy li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.buy ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+.buy a {
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000; 
+}
+
+.buy .ativo a,
+.buy a:hover {
+    background-color: #F00;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.text1 h1 {
+    font-size: 75px;
+    margin: 0;
+}
+
+.text2 h2 {
+    font-weight: lighter;
+    color: #5e5e5e;
+    width: 500px;
+    
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text2 {
+    display: flex;
+}
+
+.buy {
+    display: flex;
+    justify-content: start;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+.tudo {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.pc_gamer {
+    display: flex;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.pc_gamer img {
+    width: 550px;
+}
