@@ -1,1 +1,1 @@
-﻿# [landing-page](https://ogabito.github.io/landing-page/)
+﻿# [landing-page](https://jonye11.github.io/landing-page/)
